@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja" xml:lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Home - mikan.js</title>
+
+		<link href="../css/jquery-ui.css" rel="stylesheet" type="text/css" />
+		<link href="../css/bootstrap.css" rel="stylesheet" type="text/css" />
+		<link href="../css/font-awesome.css" rel="stylesheet" type="text/css" />
+		<link href="../css/weather-icons.css" rel="stylesheet" type="text/css" />
+		<link href="../css/plugins/timeline.css" rel="stylesheet" type="text/css" />
+		<link href="../css/plugins/metisMenu.css" rel="stylesheet" type="text/css" />
+		<link href="../css/plugins/morris.css" rel="stylesheet" type="text/css" />
+		<link href="../css/sb-admin-2.css" rel="stylesheet" type="text/css" />
+		<link href="../css/bootstrap-multiselect.css" rel="stylesheet" type="text/css" />
+		<link href="../css/mikan/mikan.css" rel="stylesheet" type="text/css" />
+
+		<script type="text/javascript">
+			var MIKAN_DEBUG_ON = true;
+			var MIKAN_JS_ROOT = '../js/';
+			var MIKAN_HTDOCS_ROOT = './';
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="../js/html5shiv.js"></script>
+		<script src="../js/respond.js"></script>
+		<script src="../js/jquery.js" type="text/javascript" charset="UTF-8"> </script>
+		<![endif]-->
+		<!--[if gte IE 9]><!-->
+		<script src="../js/jquery-2x.js" type="text/javascript" charset="UTF-8"> </script>
+		<![endif]-->
+		<script src="../js/jquery-ui.js" type="text/javascript" charset="UTF-8"> </script>
+		<script src="../js/jquery.fademover.js" type="text/javascript" charset="UTF-8"> </script>
+	</head>
+
+	<body <body onload="mikan.page.load();" onunload="mikan.page.unload();">
+		<div id="wrapper">
+			<nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"> </span>
+						<span class="icon-bar"> </span>
+						<span class="icon-bar"> </span>
+					</button>
+					<a class="navbar-brand" href="index.html">mikan.js</a>
+				</div>
+
+				<ul class="nav navbar-top-links navbar-right">
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+							<i class="fa fa-home fa-fw"></i>  <i class="fa fa-caret-down"></i>
+						</a>
+
+						<ul class="dropdown-menu dropdown-messages">
+							<li>
+								<a target="homepage" href="https://www.expertsoftware-i.com/">
+									<div>
+										<i class="fa fa-android fa-fw"></i>
+										<strong>ExpertSoftware Inc.</strong>
+									</div>
+									<div>https://www.expertsoftware-i.com/</div>
+								</a>
+							</li>
+							<li class="divider"> </li>
+							<li>
+								<a target="github" href="https://github.com/ksonohara/mikan_js/">
+									<div>
+										<i class="fa fa-github-square fa-fw"></i>
+										<strong>GitHub</strong>
+									</div>
+									<div>https://github.com/ksonohara/mikan_js/</div>
+								</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+
+				<div class="navbar-default sidebar" role="navigation">
+					<div class="sidebar-nav navbar-collapse">
+						<ul class="nav" id="side-menu">
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+
+		<div id="page-wrapper">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1 class="page-header"><i class="fa fa-home fa-fw"> </i>Home</h1>
+				</div>
+			</div>
+		</div>
+
+		<footer class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12">
+					  <small>Copyright (C) 1997-2015 K.Sonohara All Rights Reserved.</small>
+					  <small>Code released under [Mozilla Public License, version 2.0]</small>
+				</div>
+			</div>
+		</footer>
+
+		<script src="../js/bootstrap.js" type="text/javascript" charset="UTF-8"> </script>
+		<script src="../js/plugins/morris.js" type="text/javascript" charset="UTF-8"> </script>
+		<script src="../js/plugins/metisMenu.js" type="text/javascript" charset="UTF-8"> </script>
+		<script src="../js/sb-admin-2.js" type="text/javascript" charset="UTF-8"> </script>
+		<script src="../js/bootstrap-multiselect.js" type="text/javascript" charset="UTF-8"> </script>
+		<script src="../js/mikan/mikan.js" type="text/javascript" charset="UTF-8"> </script>
+
+		<script type="text/javascript">
+			$('body').fadeMover({'effectType': 2,'inSpeed': 400,'outSpeed': 400, 'nofadeOut' : 'nonmover'});
+			$('#side-menu').html(mikan.html.bootstrap.load_sidemenu("menus.json"));
+		</script>
+	</body>
+</html>

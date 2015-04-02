@@ -1,4 +1,4 @@
-# [Mikan JS](http://www.expertsoftware-i.com/product/mikan_js.php)
+# [mikan.js](http://www.expertsoftware-i.com/product/mikan_js.php)
 ###JavaScript web library
 
 JavaScript web library.

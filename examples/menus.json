@@ -1,0 +1,32 @@
+{
+	"items": [
+		{
+			"name": "home",
+			"caption": "Home",
+			"target": "home",
+			"icon": "fa fa-home fa-fw",
+			"url": "index.html"
+		},
+		{
+			"name": "examples",
+			"caption": "Examples",
+			"icon": "fa fa-image fa-fw",
+			"items": [
+				{
+					"name": "home",
+					"caption": "Home",
+					"target": "home",
+					"icon": "fa fa-home fa-fw",
+					"url": "index.html"
+				},
+				{
+					"name": "home",
+					"caption": "Home",
+					"target": "home",
+					"icon": "fa fa-home fa-fw",
+					"url": "index.html"
+				}
+			]
+		}
+	]
+}
