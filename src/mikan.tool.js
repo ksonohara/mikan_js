@@ -62,7 +62,7 @@ mikan.form.bootstrap.builder.init = function() {
 		"入力規則",
 		"ヒント"
 	];
-	var _items = [
+	var items = [
 		[ "f1", "テスト1", "", "", "false", "text", "", "", "", "", "", "true", "入力値", "", "ヒント" ],
 		[ "f2", "テスト2", "", "true", "", "text", "", "", "", "", "", "false", "入力値", "", "ヒント" ],
 		[ "f3", "テスト3", "test", "", "", "checkbox", "", "", "", "", "", "", "", "", "" ],
@@ -82,12 +82,12 @@ mikan.form.bootstrap.builder.init = function() {
 		[ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 		[ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ]
 	];
-	mikan.form.bootstrap.builder.items = _items;
+	mikan.form.bootstrap.builder.items = items;
 
 	var h = '';
 	bb_data.html("");
 	bb_data.handsontable({
-		data: _items,
+		data: items,
 		colHeaders: columns,
 		columns: [
 			{},
@@ -153,7 +153,7 @@ mikan.form.bootstrap.builder.apply = function() {
 	var list = mikan.form.bootstrap.builder.items;
 	
 	//
-	var _items = [];
+	var items = [];
 	for (var i in list) {
 		//
 		var l = list[i];
@@ -218,15 +218,15 @@ mikan.form.bootstrap.builder.apply = function() {
 			var num = i;
 			if (i < 10) num = "0" + i;
 			item["sort"] = parseInt(i);
-			_items.push(item);
+			items.push(item);
 		}
 	}
 
 	var bb_json = $("#mikan_bb_json");
-	bb_json.html('<pre><code>' + JSON.stringify({ items: _items }, null, "	") + '</code></pre>');
+	bb_json.html('<pre><code>' + JSON.stringify({ items: items }, null, "	") + '</code></pre>');
 
 	var h = '<form class="form-horizontal" role="form" onsubmit=" return false; ">';
-	h += mikan.form.html.create_inputs("mikan", { items: _items });
+	h += mikan.form.html.create_inputs("mikan", { items: items });
 	h += '</form>';
 
 	$("#mikan_bb_preview").html(h);
