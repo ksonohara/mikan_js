@@ -1,0 +1,56 @@
+/*
+ * mikan.js JavaScript Web Library
+ *  CSS Module
+ *
+ * Copyright (C) 2008-15 K.Sonohara
+ * Code released under [Mozilla Public License, version 2.0](https://github.com/ksonohara/mikan_js/blob/master/LICENSE)
+ *
+ * https://github.com/ksonohara/mikan_js/
+ * http://www.expertsoftware-i.com/
+ *
+ */
+
+img.logo { height: 100%; } 
+.list-group-item img  { width: 100%; } 
+.fixed { table-layout: fixed; }
+
+img.icon { width: 24px; border-width: 0px; max-height: 24px; } 
+img.icon_middle { width: 32px; border-width: 0px; max-height: 32px; } 
+img.icon_normal { width: 64px; border-width: 0px; max-height: 64px; } 
+img.icon_small { width: 16px; border-width: 0px; max-height: 16px; } 
+img.icon_large { width: 128px; border-width: 0px; max-height: 128px; } 
+
+img.banner { width: 128px; max-height: 96px; } 
+
+table.table tbody tr td { word-break: break-all; word-wrap: break-word; }
+table.table tbody tr th { word-break: keep-all; word-wrap: normal; }
+
+.carousel-image {
+    width: 100%;
+}
+
+div.sitemap div ul {
+	color: white;
+}
+div.sitemap div ul li a {
+	color: white;
+}
+
+div.col-xs-3 a img {
+	width: 100%;
+	height: 100%;
+	padding: 2px;
+}
+
+#page_main {
+	display:none;
+}
+#page_loading {
+	width: 100%;
+	height: 150%;
+	padding: 32px;
+	text-align: center;
+	background-image: url("../../images/loading.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+}
