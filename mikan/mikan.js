@@ -60,6 +60,17 @@ if( MIKAN_LANG == undefined) {
 /* ---------------------------------------------------------------------------------------------
  *  Variable Section
  * --------------------------------------------------------------------------------------------- */
+if( mikan == undefined) {
+	var mikan = {};
+	mikan.page = {};
+}
+if( mikan.resource == undefined) {
+	mikan.resource = {};
+}
+if( mikan.page == undefined) {
+	mikan.page = {};
+}
+
 if (MIKAN_JS_ON == false) {
 	var MIKAN_JS_MIKAN_FILES = [];
 	if (!MIKAN_JS_MIN) {
@@ -87,10 +98,8 @@ if (MIKAN_JS_ON == false) {
 		var MIKAN_JS_FILES = [
 		];
 	}
-
-	var mikan = {};
-	mikan.resource = {};
 }
+
 
 /* ---------------------------------------------------------------------------------------------
  *  Function Section

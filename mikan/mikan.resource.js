@@ -22,6 +22,9 @@
  *  Variable Section
  * --------------------------------------------------------------------------------------------- */
 
+if( mikan.resource == undefined) {
+	mikan.resource = {};
+}
 mikan.resource.form = {};
 mikan.resource.message = {};
 mikan.resource.form.messages = {};
