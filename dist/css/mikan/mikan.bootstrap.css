@@ -51,22 +51,22 @@ img.log {
 	overflow: none;
 }
 
-div > a > img {
+div> a> img {
 	max-width: 98%;
 }
 
-div > img {
+div> img {
 	max-width: 98%;
 }
 
 a.rss {}
 
-nav.navbar-default > div {
+nav.navbar-default> div {
 	max-width: 98%;
 	padding: 0 32px 0 32px;
 }
 
-nav.navbar > div.sidebar {
+nav.navbar> div.sidebar {
 	max-width: 98%;
 	padding: 0;
 }
@@ -75,7 +75,7 @@ nav.navbar > div.sidebar {
 	padding: 0 8px 0 16px;
 }
 
-#summary_jumbotron > div.container-fluid {
+#summary_jumbotron> div.container-fluid {
 	padding: 8px 8px 8px 16px;
 }
 
@@ -487,7 +487,7 @@ table.dataTable thead .sorting:after {
 
 form.form-horizontal {
 	padding: 16px;
-	div.form-group > div {
+	div.form-group> div {
 		padding: 16px;
 		vertical-align: middle;
 	}
@@ -550,12 +550,12 @@ div.bootstrap-tagsinput {
 	padding: 0;
 }
 
-#page-wrapper > div.jumbotron > div {
+#page-wrapper> div.jumbotron> div {
 	padding-left: 40px;
 	padding-right: 40px;
 }
 
-.page-wrapper2 > div.row-fluid {
+.page-wrapper2> div.row-fluid {
 	padding-left: 10px;
 }
 
@@ -627,10 +627,10 @@ h1 {
 	.carousel-control {
 		width: 10%;
 	}
-	.page-wrapper2 > div.row-fluid {
+	.page-wrapper2> div.row-fluid {
 		padding-left: 40px;
 	}
-	#page-wrapper > div.jumbotron > div {
+	#page-wrapper> div.jumbotron> div {
 		padding-left: 80px;
 		padding-right: 80px;
 	}

@@ -99,7 +99,6 @@ module.exports = function(grunt) {
 				src: [
 					"Gruntfile.js",
 					"package.json",
-					"bower.json",
 					"eslint.json"
 				]
 			},
@@ -152,9 +151,6 @@ module.exports = function(grunt) {
 		}
 	});
 
-	grunt.registerTask('check', ['build', 'notify']);
-	grunt.registerTask('cron', ['cssmin', 'concat:mikan', 'less:mikan', 'uglify', 'jsbeautifier']);
-	grunt.registerTask('auto', ['default', 'watch']);
 	grunt.registerTask('build', ['cssmin', 'concat:mikan', 'less:mikan', 'uglify', 'jsbeautifier']);
 	grunt.registerTask('default', ['build']);
 	grunt.registerTask('css', 'build', function(arg1) {

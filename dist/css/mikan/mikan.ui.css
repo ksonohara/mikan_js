@@ -167,11 +167,11 @@ div.background {
 	z-index: 0;
 }
 
-div.background > img {
+div.background> img {
 	max-width: 100%;
 }
 
-div.profile > img.profile {
+div.profile> img.profile {
 	margin: -50px 10px 0px 10px;
 	z-index: 9;
 	min-height: 192px;
@@ -180,7 +180,7 @@ div.profile > img.profile {
 	max-width: 90%;
 }
 
-div.row-fluid > div > p {
+div.row-fluid> div> p {
 	padding: 4px 4px 4px 16px;
 }
 
@@ -190,12 +190,12 @@ div.jumbotron-background {
 	background-attachment: fixed;
 }
 
-div.jumbotron-background > div.container-fluid > h2 {
+div.jumbotron-background> div.container-fluid> h2 {
 	padding: 16px;
 	background-color: rgba(256, 256, 256, .9);
 }
 
-div.jumbotron-background > div.container-fluid > p {
+div.jumbotron-background> div.container-fluid> p {
 	padding: 32px;
 	background-color: rgba(256, 256, 256, .8);
 }
@@ -204,7 +204,7 @@ div.jumbotron-background > div.container-fluid > p {
 	padding: 16px 0 0 0;
 }
 
-#sns > ol.breadcrumb {
+#sns> ol.breadcrumb {
 	margin-bottom: 0;
 	padding: 0 64px 0 64px;
 }
@@ -217,16 +217,16 @@ div.jumbotron-background > div.container-fluid > p {
 	padding-left: 16px;
 }
 
-ol.breadcrumb > li {
+ol.breadcrumb> li {
 	padding-top: 8px;
 	padding-bottom: 8px;
 }
 
 @media(min-width:768px) {
-	div.profile > img.profile {
+	div.profile> img.profile {
 		margin: -50px 20px 0px 50px;
 	}
-	div.profile > img.profile {
+	div.profile> img.profile {
 		padding: 4px 8px 4px 32px;
 	}
 }

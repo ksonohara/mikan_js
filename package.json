@@ -1,29 +1,32 @@
 {
-  "name": "mikan.js",
-  "version": "0.1.0",
-  "description": "JavaScript web library mikan.js",
-  "main": "Gruntfile.js",
-  "directories": {
-    "doc": "doc"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "Mozilla Public License, version 2.0",
-  "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-clean": "^0.4.0",
-    "grunt-contrib-concat": "^1.0.1",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-csslint": "^1.0.0",
-    "grunt-contrib-cssmin": "^1.0.1",
-    "grunt-contrib-imagemin": "^1.0.1",
-    "grunt-contrib-less": "^1.3.0",
-    "grunt-contrib-uglify": "^1.0.1",
-    "grunt-eslint": "^18.1.0",
-    "grunt-jsbeautifier": "^0.2.12",
-    "grunt-text-replace": "^0.4.0",
-    "jit-grunt": "^0.10.0"
-  }
+	"name": "mikan.js",
+	"version": "0.1.0",
+	"description": "JavaScript web library mikan.js",
+	"main": "Gruntfile.js",
+	"directories": {
+		"doc": "doc"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "Mozilla Public License, version 2.0",
+	"devDependencies": {
+		"autoprefixer-core": "^6.0.1",
+		"csswring": "^5.0.0",
+		"grunt": "^1.0.1",
+		"grunt-clean": "^0.4.0",
+		"grunt-contrib-concat": "^1.0.1",
+		"grunt-contrib-copy": "^1.0.0",
+		"grunt-contrib-csslint": "^1.0.0",
+		"grunt-contrib-cssmin": "^1.0.1",
+		"grunt-contrib-imagemin": "^1.0.1",
+		"grunt-contrib-less": "^1.3.0",
+		"grunt-contrib-uglify": "^1.0.1",
+		"grunt-eslint": "^18.1.0",
+		"grunt-jsbeautifier": "^0.2.12",
+		"grunt-postcss": "^0.8.0",
+		"grunt-text-replace": "^0.4.0",
+		"jit-grunt": "^0.10.0"
+	}
 }
