@@ -1,5 +1,5 @@
 # [mikan.js](https://www.e-software.company/product/mikan_js/)
----
+
 ## JavaScript web library
 
 JavaScript web library.
@@ -37,7 +37,6 @@ Now making...
 Copyright 1997-2016 K.Sonohara.
 - Code released under [Mozilla Public License, version 2.0](https://github.com/ksonohara/mikan_js/blob/master/LICENSE)
 
----
 ## Author
 
 K.Sonohara

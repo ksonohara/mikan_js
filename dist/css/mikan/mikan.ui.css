@@ -1,0 +1,232 @@
+/*
+ * mikan.js JavaScript Web Library
+ *  CSS Module
+ *
+ * Copyright (C) 1997-2016 K.Sonohara All Rights Reserved.
+ *   Deploy by ExpertSoftware Inc.
+ *   配布: 株式会社エキスパートソフトウェア
+ *
+ * Code released under [Mozilla Public License, version 2.0]
+ *   https://github.com/ksonohara/mikan_js/blob/master/LICENSE)
+ *
+ * https://github.com/ksonohara/mikan_js/
+ * https://www.e-software.company/
+ *
+ */
+
+h1 {
+	word-break: keep-all;
+}
+
+h2 {
+	word-break: keep-all;
+}
+
+img.logo_banner {
+	max-height: 128px;
+}
+
+img.logo {
+	height: 100%;
+}
+
+.list-group-item img {
+	width: 100%;
+}
+
+.fixed {
+	table-layout: fixed;
+}
+
+img.icon {
+	width: 24px;
+	border-width: 0;
+	max-height: 24px;
+}
+
+img.icon_middle {
+	width: 32px;
+	border-width: 0;
+	max-height: 32px;
+}
+
+img.icon_normal {
+	width: 64px;
+	border-width: 0;
+	max-height: 64px;
+}
+
+img.icon_small {
+	width: 16px;
+	border-width: 0;
+	max-height: 16px;
+}
+
+img.icon_large {
+	width: 128px;
+	border-width: 0;
+	max-height: 128px;
+}
+
+img.banner {
+	width: 128px;
+	max-height: 96px;
+}
+
+table.table tbody tr td {
+	word-break: break-all;
+	word-wrap: break-word;
+}
+
+table.table tbody tr th {
+	word-break: keep-all;
+	word-wrap: normal;
+}
+
+div.sitemap div ul {
+	color: white;
+}
+
+div.sitemap div ul li a {
+	color: white;
+}
+
+img.panel {
+	padding: 16px;
+}
+
+div img {
+	max-width: 90%;
+}
+
+img.thumbnail {
+	max-width: 100%;
+}
+
+img.card {
+	max-width: 100%;
+	height: 256px;
+}
+
+.text-undreline {
+	text-decoration: underline;
+}
+
+.text-overline {
+	text-decoration: overline;
+}
+
+.text-line-through {
+	text-decoration: line-through;
+}
+
+div.carousel-caption h3 {
+	//	padding: 4px;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+div.carousel-caption p {
+	//	padding: 2px;
+	background-color: rgba(0, 0, 0, 0.4);
+}
+
+div.top-up {
+	padding: 16px 4px 32px 4px;
+}
+
+div.spaceline {
+	padding: 16px 0 16px 0;
+}
+
+img.loading {
+	max-width: 128px;
+}
+
+span.logo {
+	vertical-align: middle;
+}
+
+div.spaceline-1 {
+	padding: 16px 0 16px 0;
+}
+
+div.spaceline-2 {
+	padding: 32px 0 32px 0;
+}
+
+div.spaceline-3 {
+	padding: 48px 0 48px 0;
+}
+
+div.spaceline-4 {
+	padding: 64px 0 64px 0;
+}
+
+div.background {
+	min-height: 100px;
+	z-index: 0;
+}
+
+div.background > img {
+	max-width: 100%;
+}
+
+div.profile > img.profile {
+	margin: -50px 10px 0px 10px;
+	z-index: 9;
+	min-height: 192px;
+	min-width: 192px;
+	max-height: 90%;
+	max-width: 90%;
+}
+
+div.row-fluid > div > p {
+	padding: 4px 4px 4px 16px;
+}
+
+div.jumbotron-background {
+	margin-bottom: 0;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+div.jumbotron-background > div.container-fluid > h2 {
+	padding: 16px;
+	background-color: rgba(256, 256, 256, .9);
+}
+
+div.jumbotron-background > div.container-fluid > p {
+	padding: 32px;
+	background-color: rgba(256, 256, 256, .8);
+}
+
+#sns {
+	padding: 16px 0 0 0;
+}
+
+#sns > ol.breadcrumb {
+	margin-bottom: 0;
+	padding: 0 64px 0 64px;
+}
+
+.jumbotron h1 {
+	font-size: 32px;
+}
+
+.jumbotron p {
+	padding-left: 16px;
+}
+
+ol.breadcrumb > li {
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+@media(min-width:768px) {
+	div.profile > img.profile {
+		margin: -50px 20px 0px 50px;
+	}
+	div.profile > img.profile {
+		padding: 4px 8px 4px 32px;
+	}
+}
