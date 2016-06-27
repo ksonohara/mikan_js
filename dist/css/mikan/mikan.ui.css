@@ -14,12 +14,8 @@
  *
  */
 
-h1 {
-	word-break: keep-all;
-}
-
-h2 {
-	word-break: keep-all;
+* {
+	word-break: normal;
 }
 
 img.logo_banner {
@@ -209,20 +205,14 @@ div.jumbotron-background> div.container-fluid> p {
 	padding: 0 64px 0 64px;
 }
 
-.jumbotron h1 {
-	font-size: 32px;
-}
-
-.jumbotron p {
-	padding-left: 16px;
-}
-
-ol.breadcrumb> li {
-	padding-top: 8px;
-	padding-bottom: 8px;
+h1 {
+	font-size: 18px;
 }
 
 @media(min-width:768px) {
+	h1 {
+		font-size: 32px;
+	}
 	div.profile> img.profile {
 		margin: -50px 20px 0px 50px;
 	}

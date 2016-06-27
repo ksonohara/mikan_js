@@ -86,7 +86,7 @@ module.exports = function(grunt) {
 			options: {
 				shorthandCompacting: false,
 				roundingPrecision: -1,
-				banner: '/*\n * mikan.js JavaScript Web Library\n *  JavaScript Module\n *\n * Copyright (C) 1997-2016 K.Sonohara All Rights Reserved.\n *   Deploy by ExpertSoftware Inc.\n *  *   ”z•z: Š”®‰ïĞƒGƒLƒXƒp[ƒgƒ\ƒtƒgƒEƒFƒA\n *\n * Code released under [Mozilla Public License, version 2.0]\n *   https://github.com/ksonohara/mikan_js/blob/master/LICENSE)\n *\n * https://github.com/ksonohara/mikan_js/\n * https://www.e-software.company/\n */\n'
+				banner: '/*\n * mikan.js JavaScript Web Library\n *  JavaScript Module\n *\n * Copyright (C) 1997-2016 K.Sonohara All Rights Reserved.\n *   Deploy by ExpertSoftware Inc.\n *  *   é…å¸ƒ: æ ªå¼ä¼šç¤¾ã‚¨ã‚­ã‚¹ãƒ‘ãƒ¼ãƒˆã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢\n *\n * Code released under [Mozilla Public License, version 2.0]\n *   https://github.com/ksonohara/mikan_js/blob/master/LICENSE)\n *\n * https://github.com/ksonohara/mikan_js/\n * https://www.e-software.company/\n */\n'
 			},
 			target: {
 				files: {
@@ -127,7 +127,7 @@ module.exports = function(grunt) {
 		},
 		uglify: {
 			options: {
-				banner: '/*\n * mikan.js JavaScript Web Library\n *  JavaScript Module\n *\n * Copyright (C) 1997-2016 K.Sonohara All Rights Reserved.\n *   Deploy by ExpertSoftware Inc.\n *  *   ”z•z: Š”®‰ïĞƒGƒLƒXƒp[ƒgƒ\ƒtƒgƒEƒFƒA\n *\n * Code released under [Mozilla Public License, version 2.0]\n *   https://github.com/ksonohara/mikan_js/blob/master/LICENSE)\n *\n * https://github.com/ksonohara/mikan_js/\n * https://www.e-software.company/\n */\nvar MIKAN_JS_MIN=1;'
+				banner: '/*\n * mikan.js JavaScript Web Library\n *  JavaScript Module\n *\n * Copyright (C) 1997-2016 K.Sonohara All Rights Reserved.\n *   Deploy by ExpertSoftware Inc.\n *  *   é…å¸ƒ: æ ªå¼ä¼šç¤¾ã‚¨ã‚­ã‚¹ãƒ‘ãƒ¼ãƒˆã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢\n *\n * Code released under [Mozilla Public License, version 2.0]\n *   https://github.com/ksonohara/mikan_js/blob/master/LICENSE)\n *\n * https://github.com/ksonohara/mikan_js/\n * https://www.e-software.company/\n */\nvar MIKAN_JS_MIN=1;'
 			},
 			build: {
 				src: jss,
@@ -151,7 +151,7 @@ module.exports = function(grunt) {
 		}
 	});
 
-	grunt.registerTask('build', ['cssmin', 'concat:mikan', 'less:mikan', 'uglify', 'jsbeautifier']);
+	grunt.registerTask('build', ['concat:mikan', 'less:mikan', 'uglify', 'jsbeautifier', 'cssmin']);
 	grunt.registerTask('default', ['build']);
 	grunt.registerTask('css', 'build', function(arg1) {
 		grunt.task.run('concat:etc:' + arg1);

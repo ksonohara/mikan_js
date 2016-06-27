@@ -72,7 +72,7 @@ mikan.report.bill.total = function(_items) {
 		}
 		h += '<' + t + ' class="text-right">';
 		if (d.title !== undefined) {
-			h += d.title + ' ';
+			h += d.title + ':';
 		} else {
 			h += ' ';
 		}
