@@ -1,0 +1,36 @@
+{
+	"env": {
+		"node": true,
+		"browser": true,
+		"jquery": true
+	},
+	"ecmaFeatures": {
+		"jsx": true
+	},
+	"globals": {
+		"mikan": true,
+		"MIKAN_DEBUG_ON": true,
+		"MIKAN_URL_ROOT": true,
+		"MIKAN_URL_HTDOCS": true,
+		"MIKAN_URL_IMAGES": true,
+		"MIKAN_URL_CSS": true,
+		"MIKAN_URL_JS": true,
+		"MIKAN_URL_WSGI": true,
+		"MIKAN_URL_CSS_MIKAN": true,
+		"MIKAN_URL_JS_MIKAN": true,
+		"MIKAN_JS_MIN": true
+	},
+	"rules": {
+		"camelcase": false,
+		"quotes": [
+			1,
+			"single"
+		],
+		"no-underscore-dangle": false,
+		"strict": false,
+		"no-unused-vars": [2, {
+			"vars": "all",
+			"args": "all"
+		}]
+	}
+}
